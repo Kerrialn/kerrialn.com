@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
 }
-@media (min-width: 480px) and (max-width: 768px) {
+@media (min-width: 0px) and (max-width: 768px) {
   .w {
     width: 90%;
   }
