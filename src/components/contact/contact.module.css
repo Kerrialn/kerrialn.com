@@ -2,10 +2,18 @@
   display: flex;
   justify-content: center;
 }
-
-.w40 {
-  width: 40%;
+@media (min-width: 480px) and (max-width: 768px) {
+  .w {
+    width: 90%;
+  }
 }
+
+@media (min-width: 768px) {
+  .w {
+    width: 40%;
+  }
+}
+
 .flex {
   display: flex;
 }

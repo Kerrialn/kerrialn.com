@@ -7,7 +7,7 @@ interface IContactProps {}
 export const Contact: React.FC<IContactProps> = (props): JSX.Element => {
   return (
     <div className={style.contact}>
-      <div className={[style.card, style.w40].join(" ")}>
+      <div className={[style.card, style.w].join(" ")}>
         <div className={style.header}>Contact</div>
         <div
           className={[style.inner, style.flex, style.justifyBetween].join(" ")}
