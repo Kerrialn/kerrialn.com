@@ -1,0 +1,25 @@
+.navbar {
+  background-color: lightseagreen;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.navbar .title {
+  padding: 20px;
+  font-weight: 900;
+  line-height: 1.2;
+  color: #ffffff;
+}
+
+.navbar a {
+  color: #ffffff;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: rgba(0, 0, 20, 0.15);
+  text-decoration: none;
+}

@@ -1,0 +1,27 @@
+import React from "react";
+import style from "./contact.module.css";
+import { data } from "../../data/data";
+
+interface IContactProps {}
+
+export const Contact: React.FC<IContactProps> = (props): JSX.Element => {
+  return (
+    <div className={style.contact}>
+      <div className={[style.card, style.w40].join(" ")}>
+        <div className={style.header}>Contact</div>
+        <div
+          className={[style.inner, style.flex, style.justifyBetween].join(" ")}
+        >
+          <div>Phone</div>
+          <div>{data.phone}</div>
+        </div>
+        <div
+          className={[style.inner, style.flex, style.justifyBetween].join(" ")}
+        >
+          <div>Email</div>
+          <div>{data.email}</div>
+        </div>
+      </div>
+    </div>
+  );
+};
