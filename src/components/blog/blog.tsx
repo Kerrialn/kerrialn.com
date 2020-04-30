@@ -23,11 +23,12 @@ class Blog extends React.Component<Props> {
       <div className={style.blog}>
         {data.blogs
           .filter((blog) => blog.slug == this.props.match.params.slug)
-          .map((filteredblog) => (
+          .map((filteredblog, index) => (
             <div>
-              <h1>{filteredblog.title}</h1>
-
-              <p>{filteredblog.content[0]}</p>
+              <h1 className={style.title}>{filteredblog.title}</h1>
+              {filteredblog.content.map((c, i) => {
+                return <p>{c}</p>;
+              })}
             </div>
           ))}
       </div>
