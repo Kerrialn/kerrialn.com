@@ -26,7 +26,9 @@
 }
 
 .title {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .card {
@@ -45,4 +47,18 @@
   padding: 25px;
   border-top: 1px solid rgba(0, 0, 0, 0.015);
   display: flex;
+}
+
+.source {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-top: 1px solid rgba(0, 0, 0, 0.015);
+}
+
+.flex {
+  display: flex;
+}
+.between {
+  justify-content: space-between;
 }

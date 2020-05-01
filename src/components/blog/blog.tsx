@@ -19,16 +19,39 @@ class Blog extends React.Component<Props> {
       return this.props.match.params.slug;
     };
 
+    const getSources = (filteredblog: any): JSX.Element => {
+      return filteredblog.sources.map((source: any, i: number) => {
+        return (
+          <div>
+            <div className={style.source}>
+              <div>{source.title}</div>
+              <a target='_BLANK' href={source.link}>
+                {source.link}
+              </a>
+            </div>
+          </div>
+        );
+      });
+    };
+
     return (
       <div className={style.blog}>
         {data.blogs
           .filter((blog) => blog.slug == this.props.match.params.slug)
           .map((filteredblog, index) => (
             <div>
-              <h1 className={style.title}>{filteredblog.title}</h1>
+              <div className={[style.flex, style.between].join(" ")}>
+                <div className={style.title}>{filteredblog.title}</div>
+                <div>{filteredblog.date.toDateString()}</div>
+              </div>
+
               {filteredblog.content.map((c, i) => {
                 return <p>{c}</p>;
               })}
+
+              {filteredblog.sources.length ? (
+                <div>{getSources(filteredblog)}</div>
+              ) : null}
             </div>
           ))}
       </div>

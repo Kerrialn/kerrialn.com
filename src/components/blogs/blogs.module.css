@@ -1,7 +1,7 @@
 @media (min-width: 0px) and (max-width: 768px) {
   /* rules for mobile horizontal (480 > 768)  */
   .blogs {
-    margin: 0 50px;
+    margin: 0 2%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -14,7 +14,7 @@
 @media (min-width: 768px) and (max-width: 992px) {
   /* rules for tablet (768 > 992) */
   .blogs {
-    margin: 0 50px;
+    margin: 0 15%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -51,6 +51,12 @@
   }
 }
 
+.date {
+  font-size: 12px;
+  text-align: center;
+  color: gray;
+}
+
 .blog a {
   text-decoration: none;
   color: #000000;
@@ -84,4 +90,8 @@
   padding: 25px;
   border-top: 1px solid rgba(0, 0, 0, 0.015);
   display: flex;
+}
+
+.justifiyCenter {
+  justify-content: center;
 }
