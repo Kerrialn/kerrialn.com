@@ -39,7 +39,7 @@ export const data = {
       ],
       sources: [
         {
-          title: "How Much Is Your Data Worth?",
+          title: "Forbes - How Much Is Your Data Worth?",
           link:
             "https://www.forbes.com/sites/stephanzoder/2019/08/06/how-much-is-your-data-worth/#30c187c070fc",
         },
