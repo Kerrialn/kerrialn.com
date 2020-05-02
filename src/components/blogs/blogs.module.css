@@ -4,7 +4,7 @@
     margin: 0 2%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
   }
 
   .blog {
@@ -17,7 +17,7 @@
     margin: 0 15%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
   }
 
   .blog {
@@ -30,11 +30,11 @@
     margin: 0 50px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
   }
 
   .blog {
-    width: 45%;
+    width: 30%;
   }
 }
 @media (min-width: 1200px) {
@@ -43,11 +43,11 @@
     margin: 0 50px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
   }
 
   .blog {
-    width: 40%;
+    width: 30%;
   }
 }
 
