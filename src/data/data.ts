@@ -37,7 +37,13 @@ export const data = {
         "To me the next gold mine is opinion mining, seeing as most economies are built on confidence of the consumer and investors, then knowing customers opinions of your products would be extremely valuable, apply these option data sets to AI pattern recognition algorithms and boom you might have percentage of predictability in public reception or even consumption of a new product. This is just the tip of the iceberg and it’s happening now. ",
         "The future is one of big data and pattern finding AI, all in an attempt to predict consumer behaviour and reduce company risk. It’ll be good, high quality, cheap or free. Until the accuracy of AI prediction becomes guaranteeable and new data is no longer needed. Then what? ",
       ],
-      sources: [],
+      sources: [
+        {
+          title: "How Much Is Your Data Worth?",
+          link:
+            "https://www.forbes.com/sites/stephanzoder/2019/08/06/how-much-is-your-data-worth/#30c187c070fc",
+        },
+      ],
       date: new Date("May 2, 2020 11:37:00"),
       published: true,
     },
