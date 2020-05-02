@@ -53,8 +53,8 @@
 
 .date {
   font-size: 12px;
-  text-align: center;
   color: gray;
+  margin-top: 5px;
 }
 
 .blog a {
@@ -77,9 +77,12 @@
 }
 
 .card .header {
-  font-weight: bold;
   border-bottom: 1px solid rgba(0, 0, 20, 0.05);
   padding: 20px;
+}
+
+.card .b {
+  font-weight: bold;
 }
 
 .card .inner {
