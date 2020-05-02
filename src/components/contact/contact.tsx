@@ -12,13 +12,17 @@ export const Contact: React.FC<IContactProps> = (props): JSX.Element => {
         <div
           className={[style.inner, style.flex, style.justifyBetween].join(" ")}
         >
-          <div>Phone</div>
+          <div>
+            <b>Phone</b>
+          </div>
           <div>{data.phone}</div>
         </div>
         <div
           className={[style.inner, style.flex, style.justifyBetween].join(" ")}
         >
-          <div>Email</div>
+          <div>
+            <b>Email</b>
+          </div>
           <div>{data.email}</div>
         </div>
       </div>
