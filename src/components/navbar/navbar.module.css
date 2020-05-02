@@ -2,7 +2,7 @@
   background-color: lightseagreen;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   margin-bottom: 50px;
 }
 
@@ -11,6 +11,13 @@
   font-weight: 900;
   line-height: 1.2;
   color: #ffffff;
+}
+
+.logo {
+  height: 40px;
+  padding: 9px;
+  pointer-events: none;
+  margin: 0px 20px;
 }
 
 .navbar a {
