@@ -1,0 +1,98 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Kerrialn.com{% endblock %}
+
+{% block body %}
+
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="{{ asset('images/aero-cab-station.jpg') }}" class="carousel-img" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Perspective</h5>
+                    <p>Like an oxygenarian’s liver, democracy is failing</p>
+                    <a href="{{ path('blog.2020.perspective') }}" class="btn btn-sm btn-dark">Read more</a>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="{{ asset('images/education.jpg') }}" class="carousel-img" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Easy, cheap, good, working, free and now!</h5>
+                    <p>applications that are the simplest and easiest to use, configure and modify or merely appear to
+                        be so, will become king of the digital mound of data dirt.</p>
+                    <a href="{{ path('blog.2020.easy-cheap-good-working-free-and-now') }}" class="btn btn-sm btn-dark">Read
+                        more</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="{{ asset('images/the-match-of-intellect.jpg') }}" class="carousel-img" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>A hunch</h5>
+                    <p>My generation seem more focused on how things are said rather then what is being said.</p>
+                    <a href="{{ path('blog.2020.a-hunch') }}" class="btn btn-sm btn-dark">Read more</a>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleDark" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleDark" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </a>
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+
+                <div class="row g-4 mb-5">
+                    <div class="col-md-4">
+                        <a href="{{ path('blog.2020.perspective') }}" class="card-link">
+                            <div class="card h-100">
+                                <img src="{{ asset('images/aero-cab-station.jpg') }}" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Perspective</h5>
+                                    <p class="card-text">On occasion when in a state of prospection, generally after an
+                                        over
+                                        indulgence of wine the night before, I feel rather disheartened at our potential
+                                        future. </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="{{ path('blog.2020.a-hunch') }}" class="card-link">
+                            <div class="card h-100">
+                                <img src="{{ asset('images/the-match-of-intellect.jpg') }}" class="card-img-top"
+                                     alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">A hunch</h5>
+                                    <p class="card-text">Now a days we spend so much time
+                                        reading between the lines of what is being said, that the actual meaning is mostly
+                                        lost.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="{{ path('blog.2020.easy-cheap-good-working-free-and-now') }}" class="card-link">
+                            <div class="card h-100">
+                                <img src="{{ asset('images/education.jpg') }}" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Easy, cheap, good, working, free and now!</h5>
+                                    <p class="card-text">
+                                        I’m tired of some assumptions made by developers (junior and senior). This issue
+                                        effects large and small alike.
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

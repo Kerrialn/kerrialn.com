@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello AppController!{% endblock %}
+
+{% block body %}
+    <div class="container mt-3">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <img src="{{ asset('images/education.jpg') }}" class="w-100">
+                <h1 class="display-6">Easy, cheap, good, working, free and now!</h1>
+                <div class="mt-5">
+                    {{ include('blog/2020/easy-cheap-good-working-free-and-now/index.markdown.twig')|markdown_to_html }}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
