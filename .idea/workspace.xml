@@ -2,20 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fc6b16b-9a9d-43a6-9d28-c0123fd73da0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/aero-cab-station.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/education.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/the-match-of-intellect.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/2020/a-hunch/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/2020/a-hunch/index.markdown.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/2020/easy-cheap-good-working-free-and-now/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/2020/easy-cheap-good-working-free-and-now/index.markdown.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/2020/perspective/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/2020/perspective/index.markdown.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kerrialn.com.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kerrialn.com.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/app/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/app/index.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -146,6 +141,9 @@
       <path value="$PROJECT_DIR$/vendor/nette/neon" />
       <path value="$PROJECT_DIR$/vendor/twig/markdown-extra" />
       <path value="$PROJECT_DIR$/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/vendor/symfony/password-hasher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php81" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/deprecations" />
     </include_path>
   </component>
   <component name="ProjectId" id="1nnTYavQ6HWdRg1XTCpcrxbWCSh" />
@@ -182,6 +180,7 @@
       <workItem from="1612024911536" duration="1790000" />
       <workItem from="1612036107271" duration="3725000" />
       <workItem from="1612040365025" duration="2369000" />
+      <workItem from="1634246344956" duration="733000" />
     </task>
     <servers />
   </component>
